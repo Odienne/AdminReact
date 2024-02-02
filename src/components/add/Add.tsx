@@ -13,6 +13,8 @@ const Add = (props: Props) => {
         e.preventDefault();
 
         //add new item
+
+        props.setOpen(false);
     }
 
     return (
