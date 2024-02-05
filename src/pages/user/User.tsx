@@ -1,9 +1,5 @@
 import "./user.scss"
-import DataTable from "../../components/dataTable/DataTable";
-import {GridColDef, GridValueGetterParams} from "@mui/x-data-grid";
-import {singleUser, userRows} from "../../data";
-import {useState} from "react";
-import Add from "../../components/add/Add";
+import {singleUser} from "../../data";
 import Single from "../../components/single/Single";
 
 const User = () => {

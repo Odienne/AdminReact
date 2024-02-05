@@ -1,6 +1,6 @@
 import "./users.scss"
 import DataTable from "../../components/dataTable/DataTable";
-import {GridColDef, GridValueGetterParams} from "@mui/x-data-grid";
+import {GridColDef} from "@mui/x-data-grid";
 import {userRows} from "../../data";
 import {useState} from "react";
 import Add from "../../components/add/Add";
@@ -16,7 +16,7 @@ const columns: GridColDef[] = [
     },
     {
         field: 'actions', headerName: 'Actions', width: 100,
-        renderCell: (params => {
+        renderCell: (() => {
             return <div className="action">
                 <div className="view">View</div>
                 <div className="delete">Delete</div>

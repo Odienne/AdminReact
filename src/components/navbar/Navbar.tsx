@@ -9,9 +9,9 @@ const Navbar = () => {
                 <span>ReactAdmin</span>
             </div>
             <div className="icons">
-                <img src="search.svg" alt="icon"/>
-                <img src="app.svg" alt="icon"/>
-                <img src="expand.svg" alt="icon"/>
+                <img className="icon" src="search.svg" alt="icon"/>
+                <img className="icon" src="app.svg" alt="icon"/>
+                <img className="icon" src="expand.svg" alt="icon"/>
                 <div className="notifications">
                     <img src="notifications.svg" alt="icon"/>
                     <span>1</span>

@@ -1,6 +1,5 @@
-import "./pieChartBox.scss"
-import {Link} from "react-router-dom";
-import {Cell, Line, LineChart, Pie, ResponsiveContainer, Tooltip, PieChart} from "recharts";
+import "./pieChartBox.scss";
+import {Cell, Pie, ResponsiveContainer, Tooltip, PieChart} from "recharts";
 
 const data = [
     {name: "Mobile", value: 400, color: "#0088FE"},
